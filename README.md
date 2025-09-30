@@ -3,11 +3,11 @@
 Web app to explore India’s EEZ with modules for Taxonomy & Morphology, eDNA, Otolith, Acoustic, Fishery Advisory, and a simple EEZ Chatbot. Built with Flask + Plotly and a clean dark UI.
 
 ## Features
-- Landing with India EEZ hero and facts
+- Landing with India EEZ image and facts
 - Treemaps (taxonomy, eDNA), species search, EEZ map
-- Acoustic map via local HTML embed
+- Acoustic map 
 - Fishery advisory panel
-- General EEZ chatbot (preset Q&A)
+- EEZ chatbot 
 
 ## Requirements
 Create requirements.txt:
@@ -38,7 +38,7 @@ Open:
 app.py
 landing.html  edna.html  acoustic.html  fishery.html  chatbot.html
 styles.css    attractive_ocean_map.html
-taxonomy-morphology.csv  example_edna.csv  otolith.csv  example_indobis.csv
+taxonomy-morphology.csv  edna.csv  otolith.csv  
 requirements.txt
 ```
 
