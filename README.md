@@ -43,4 +43,3 @@ requirements.txt
 ```
 
 Note: Replace `attractive_ocean_map.html` to update the Acoustic view.
-```
