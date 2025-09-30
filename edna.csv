@@ -1,0 +1,241 @@
+Scientific_Name,Phylum,Class,Order,Family,taxon_rank,marker,asv_id,reads,sample_id,event_date,Latitude,Longitude,depth_m,basin,source_portal,project_accession,run_accession,dataset_doi
+Thunnus albacares 1,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_291335,445,SMP_1860,28-09-2023,16.38192,82.3678,83,Andaman Sea,PANGAEA,PRJNA187498,SRR8204212,10.1594/PANGAEA.275203
+Thunnus albacares 1,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_586232,159,SMP_1769,10-12-2023,17.73798,73.09614,64,Arabian Sea,SRA,PRJNA284779,SRR6664789,10.1594/PANGAEA.358795
+Thunnus albacares 1,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_419030,484,SMP_3558,19-06-2023,7.12999,91.37013,15,Bay of Bengal,ENA,PRJNA184654,SRR6147581,10.1594/PANGAEA.691723
+Sardinella longiceps 1,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,12S,ASV_877089,140,SMP_4556,03-11-2023,15.68415,78.81198,18,Arabian Sea,OBIS,PRJNA339629,SRR2465689,10.1594/PANGAEA.168148
+Sardinella longiceps 1,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,16S,ASV_415139,453,SMP_1775,04-02-2023,18.77583,74.21072,4,Bay of Bengal,ENA,PRJNA308261,SRR4910197,10.1594/PANGAEA.441097
+Sardinella longiceps 1,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,COI,ASV_453531,486,SMP_7873,13-02-2023,19.18324,89.47586,14,Andaman Sea,OBIS,PRJNA635822,SRR1564685,10.1594/PANGAEA.882038
+Rastrelliger kanagurta 1,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_336584,199,SMP_7439,01-08-2023,11.74714,74.51238,53,Bay of Bengal,SRA,PRJNA842139,SRR7723771,10.1594/PANGAEA.616588
+Rastrelliger kanagurta 1,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_686146,24,SMP_1064,11-12-2023,19.82297,86.53387,8,Andaman Sea,PANGAEA,PRJNA580754,SRR2737095,10.1594/PANGAEA.113986
+Rastrelliger kanagurta 1,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_589570,388,SMP_6892,19-08-2023,15.28954,89.95903,73,Bay of Bengal,SRA,PRJNA451279,SRR4747389,10.1594/PANGAEA.747972
+Auxis thazard 1,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_715270,484,SMP_6056,15-08-2023,8.11452,85.11787,1,Arabian Sea,ENA,PRJNA723094,SRR7167294,10.1594/PANGAEA.997421
+Auxis thazard 1,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_210687,402,SMP_1206,15-01-2023,7.99703,78.54408,51,Andaman Sea,OBIS,PRJNA872838,SRR8971379,10.1594/PANGAEA.285340
+Auxis thazard 1,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_143585,494,SMP_8574,19-08-2023,12.04017,86.13323,36,Arabian Sea,OBIS,PRJNA961882,SRR5574293,10.1594/PANGAEA.515515
+Nemipterus japonicus 1,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,COI,ASV_515192,54,SMP_3693,11-10-2023,17.34957,72.47768,30,Bay of Bengal,PANGAEA,PRJNA642335,SRR5270070,10.1594/PANGAEA.508923
+Nemipterus japonicus 1,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,16S,ASV_328576,199,SMP_8392,10-10-2023,12.26596,87.63235,3,Andaman Sea,ENA,PRJNA121959,SRR2954109,10.1594/PANGAEA.890180
+Nemipterus japonicus 1,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,16S,ASV_314283,243,SMP_1663,11-11-2023,10.86324,80.45097,52,Arabian Sea,ENA,PRJNA539792,SRR1039353,10.1594/PANGAEA.293075
+Lutjanus campechanus 1,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,COI,ASV_452228,304,SMP_8554,23-04-2023,8.49917,91.94577,59,Arabian Sea,ENA,PRJNA737147,SRR3995765,10.1594/PANGAEA.494070
+Lutjanus campechanus 1,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,12S,ASV_561079,394,SMP_6249,22-02-2023,13.10761,91.65561,32,Andaman Sea,OBIS,PRJNA283734,SRR8103230,10.1594/PANGAEA.792517
+Lutjanus campechanus 1,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,12S,ASV_978338,381,SMP_8777,17-07-2023,11.88413,87.59436,16,Arabian Sea,SRA,PRJNA710490,SRR3148815,10.1594/PANGAEA.115708
+Epinephelus malabaricus 1,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_987121,429,SMP_7546,12-12-2023,13.41326,73.4359,96,Andaman Sea,OBIS,PRJNA501896,SRR1071295,10.1594/PANGAEA.843974
+Epinephelus malabaricus 1,Chordata,Actinopterygii,Perciformes,Serranidae,species,12S,ASV_473616,276,SMP_9155,31-05-2023,13.80955,84.69883,7,Bay of Bengal,OBIS,PRJNA207512,SRR5341747,10.1594/PANGAEA.570587
+Epinephelus malabaricus 1,Chordata,Actinopterygii,Perciformes,Serranidae,species,COI,ASV_488215,394,SMP_6423,11-09-2023,18.61241,89.61003,9,Arabian Sea,PANGAEA,PRJNA798002,SRR4674515,10.1594/PANGAEA.630583
+Decapterus russelli 1,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_743409,417,SMP_2648,14-04-2023,14.68679,68.22073,89,Andaman Sea,SRA,PRJNA867836,SRR3799487,10.1594/PANGAEA.907789
+Decapterus russelli 1,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_539430,319,SMP_1956,18-06-2023,8.87499,68.43381,14,Arabian Sea,OBIS,PRJNA759347,SRR6134207,10.1594/PANGAEA.228391
+Decapterus russelli 1,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_671621,410,SMP_5735,02-02-2023,13.82429,80.21154,86,Andaman Sea,ENA,PRJNA500109,SRR1116381,10.1594/PANGAEA.573125
+Scomberomorus commerson 1,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_996048,60,SMP_6895,10-10-2023,12.36432,76.40188,97,Andaman Sea,OBIS,PRJNA760960,SRR8265795,10.1594/PANGAEA.727234
+Scomberomorus commerson 1,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_559451,181,SMP_3205,15-02-2023,18.85067,76.88381,37,Arabian Sea,SRA,PRJNA231373,SRR8778484,10.1594/PANGAEA.215294
+Scomberomorus commerson 1,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_545101,125,SMP_1190,10-09-2023,11.69882,88.42728,67,Bay of Bengal,SRA,PRJNA788105,SRR2989173,10.1594/PANGAEA.465890
+Johnius dussumieri 1,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_493002,297,SMP_5014,08-12-2023,11.34173,74.09993,2,Bay of Bengal,SRA,PRJNA258823,SRR8315360,10.1594/PANGAEA.730152
+Johnius dussumieri 1,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_997059,185,SMP_8206,19-06-2023,17.42638,87.44272,25,Arabian Sea,OBIS,PRJNA580761,SRR6491590,10.1594/PANGAEA.320984
+Johnius dussumieri 1,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_766326,29,SMP_3368,21-09-2023,15.97655,87.09902,76,Andaman Sea,PANGAEA,PRJNA224046,SRR3503771,10.1594/PANGAEA.132097
+Thunnus albacares 2,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_213632,351,SMP_5146,02-06-2023,8.59306,91.56418,22,Bay of Bengal,ENA,PRJNA131024,SRR4503157,10.1594/PANGAEA.561243
+Thunnus albacares 2,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_173523,69,SMP_4051,18-04-2023,14.90902,70.04834,96,Bay of Bengal,PANGAEA,PRJNA311810,SRR4054390,10.1594/PANGAEA.827975
+Thunnus albacares 2,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_977284,379,SMP_1635,16-04-2023,10.85991,87.08447,63,Andaman Sea,OBIS,PRJNA727769,SRR2423286,10.1594/PANGAEA.650233
+Sardinella longiceps 2,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,COI,ASV_763165,126,SMP_6949,06-10-2023,12.28225,84.524,1,Bay of Bengal,ENA,PRJNA903328,SRR5062958,10.1594/PANGAEA.277247
+Sardinella longiceps 2,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,COI,ASV_840427,57,SMP_4672,25-08-2023,10.27911,90.91677,64,Andaman Sea,SRA,PRJNA737717,SRR8006454,10.1594/PANGAEA.566882
+Sardinella longiceps 2,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,COI,ASV_326507,153,SMP_4506,27-03-2023,6.69431,70.78574,69,Andaman Sea,SRA,PRJNA675581,SRR3288627,10.1594/PANGAEA.260196
+Rastrelliger kanagurta 2,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_987225,483,SMP_3479,07-12-2023,12.89187,72.15684,94,Arabian Sea,PANGAEA,PRJNA990617,SRR4693305,10.1594/PANGAEA.472370
+Rastrelliger kanagurta 2,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_453824,334,SMP_5611,16-01-2023,7.45268,83.41806,92,Andaman Sea,OBIS,PRJNA249143,SRR6957515,10.1594/PANGAEA.636226
+Rastrelliger kanagurta 2,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_724674,454,SMP_3738,11-04-2023,14.95019,87.69024,40,Bay of Bengal,PANGAEA,PRJNA251836,SRR3976242,10.1594/PANGAEA.485777
+Auxis thazard 2,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_976020,346,SMP_9967,03-04-2023,17.90582,68.55853,34,Andaman Sea,SRA,PRJNA906790,SRR5197571,10.1594/PANGAEA.182745
+Auxis thazard 2,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_969474,84,SMP_1412,05-08-2023,17.34699,74.76883,10,Arabian Sea,SRA,PRJNA791095,SRR8326434,10.1594/PANGAEA.214352
+Auxis thazard 2,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_954882,496,SMP_3143,01-06-2023,18.20607,81.4848,12,Arabian Sea,PANGAEA,PRJNA695468,SRR7990102,10.1594/PANGAEA.737144
+Nemipterus japonicus 2,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_820255,295,SMP_9787,05-08-2023,10.82067,89.49256,49,Arabian Sea,SRA,PRJNA825256,SRR4621581,10.1594/PANGAEA.151934
+Nemipterus japonicus 2,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,16S,ASV_708364,376,SMP_9335,10-03-2023,10.45835,75.88795,85,Arabian Sea,PANGAEA,PRJNA297775,SRR3386488,10.1594/PANGAEA.887494
+Nemipterus japonicus 2,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_313945,51,SMP_6305,11-08-2023,7.25426,85.68885,93,Andaman Sea,PANGAEA,PRJNA631089,SRR3276360,10.1594/PANGAEA.254697
+Lutjanus campechanus 2,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,12S,ASV_416837,262,SMP_2542,23-06-2023,15.96308,69.74631,50,Andaman Sea,ENA,PRJNA617313,SRR7903836,10.1594/PANGAEA.619332
+Lutjanus campechanus 2,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,16S,ASV_348683,145,SMP_2365,25-05-2023,19.28786,91.66403,4,Bay of Bengal,OBIS,PRJNA119870,SRR6146386,10.1594/PANGAEA.303196
+Lutjanus campechanus 2,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,COI,ASV_130355,176,SMP_5186,21-07-2023,18.73578,70.66874,67,Arabian Sea,SRA,PRJNA842129,SRR5984445,10.1594/PANGAEA.748249
+Epinephelus malabaricus 2,Chordata,Actinopterygii,Perciformes,Serranidae,species,12S,ASV_604492,392,SMP_4072,14-12-2023,19.48933,76.99689,25,Arabian Sea,ENA,PRJNA342804,SRR6703737,10.1594/PANGAEA.922827
+Epinephelus malabaricus 2,Chordata,Actinopterygii,Perciformes,Serranidae,species,12S,ASV_958158,326,SMP_5910,29-05-2023,7.08591,90.19144,36,Andaman Sea,PANGAEA,PRJNA375987,SRR6221816,10.1594/PANGAEA.738353
+Epinephelus malabaricus 2,Chordata,Actinopterygii,Perciformes,Serranidae,species,12S,ASV_645735,314,SMP_6645,23-05-2023,12.6363,83.06139,3,Andaman Sea,SRA,PRJNA965291,SRR8177545,10.1594/PANGAEA.111023
+Decapterus russelli 2,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_520571,469,SMP_8575,05-06-2023,11.03141,72.07232,36,Bay of Bengal,OBIS,PRJNA446809,SRR7978737,10.1594/PANGAEA.395451
+Decapterus russelli 2,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_983439,50,SMP_5835,11-07-2023,12.61875,68.77558,73,Arabian Sea,SRA,PRJNA419187,SRR6237196,10.1594/PANGAEA.790907
+Decapterus russelli 2,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_944573,406,SMP_2581,04-02-2023,17.60425,90.7952,69,Andaman Sea,SRA,PRJNA229473,SRR4080201,10.1594/PANGAEA.578007
+Scomberomorus commerson 2,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_235230,260,SMP_6124,29-04-2023,12.05194,86.66245,18,Andaman Sea,SRA,PRJNA228778,SRR2635156,10.1594/PANGAEA.385977
+Scomberomorus commerson 2,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_374907,351,SMP_7970,10-10-2023,14.1826,69.52428,99,Andaman Sea,SRA,PRJNA100404,SRR8249903,10.1594/PANGAEA.803286
+Scomberomorus commerson 2,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_549613,206,SMP_6989,16-09-2023,13.99833,86.4557,37,Bay of Bengal,ENA,PRJNA808690,SRR6387408,10.1594/PANGAEA.606964
+Johnius dussumieri 2,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_605950,375,SMP_3048,20-02-2023,10.20888,72.97346,65,Arabian Sea,OBIS,PRJNA994751,SRR1092193,10.1594/PANGAEA.136187
+Johnius dussumieri 2,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_798168,163,SMP_1249,11-06-2023,12.92884,87.95292,50,Arabian Sea,ENA,PRJNA960395,SRR8102173,10.1594/PANGAEA.399770
+Johnius dussumieri 2,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_427359,121,SMP_3814,30-10-2023,12.17723,86.83204,14,Bay of Bengal,PANGAEA,PRJNA415826,SRR4467366,10.1594/PANGAEA.705605
+Thunnus albacares 3,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_404462,303,SMP_7241,04-12-2023,11.79529,78.4994,63,Bay of Bengal,OBIS,PRJNA456600,SRR8265760,10.1594/PANGAEA.983671
+Thunnus albacares 3,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_750199,256,SMP_4177,20-02-2023,15.91817,87.11532,10,Arabian Sea,ENA,PRJNA610736,SRR2854971,10.1594/PANGAEA.417267
+Thunnus albacares 3,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_777775,43,SMP_8941,22-02-2023,11.19008,73.01914,43,Andaman Sea,PANGAEA,PRJNA761614,SRR9001482,10.1594/PANGAEA.766997
+Sardinella longiceps 3,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,12S,ASV_211195,204,SMP_2887,14-07-2023,13.45569,91.35465,61,Bay of Bengal,PANGAEA,PRJNA517170,SRR7348564,10.1594/PANGAEA.580721
+Sardinella longiceps 3,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,COI,ASV_312890,326,SMP_7677,22-11-2023,8.12858,79.05869,90,Bay of Bengal,ENA,PRJNA470608,SRR9480473,10.1594/PANGAEA.998860
+Sardinella longiceps 3,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,12S,ASV_290471,291,SMP_7190,01-05-2023,15.78509,80.27977,63,Arabian Sea,SRA,PRJNA195257,SRR5782883,10.1594/PANGAEA.310176
+Rastrelliger kanagurta 3,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_668535,364,SMP_2276,29-06-2023,9.32622,76.89133,86,Bay of Bengal,ENA,PRJNA915131,SRR8413718,10.1594/PANGAEA.167661
+Rastrelliger kanagurta 3,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_218033,374,SMP_7809,14-01-2023,8.49448,71.19481,3,Andaman Sea,PANGAEA,PRJNA971149,SRR4708654,10.1594/PANGAEA.953499
+Rastrelliger kanagurta 3,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_499445,303,SMP_7882,15-01-2023,7.91573,85.69772,28,Bay of Bengal,PANGAEA,PRJNA347736,SRR4720464,10.1594/PANGAEA.195462
+Auxis thazard 3,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_835265,135,SMP_5632,25-05-2023,11.12951,79.37528,10,Andaman Sea,SRA,PRJNA749324,SRR5221038,10.1594/PANGAEA.126069
+Auxis thazard 3,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_814016,273,SMP_7891,24-03-2023,11.61343,76.09872,52,Bay of Bengal,OBIS,PRJNA699991,SRR2314532,10.1594/PANGAEA.521240
+Auxis thazard 3,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_224040,159,SMP_2733,11-03-2023,9.82043,71.85635,75,Bay of Bengal,ENA,PRJNA962557,SRR7436446,10.1594/PANGAEA.258518
+Nemipterus japonicus 3,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,16S,ASV_222883,396,SMP_9434,31-01-2023,12.04036,91.57709,95,Bay of Bengal,ENA,PRJNA403571,SRR4094235,10.1594/PANGAEA.784106
+Nemipterus japonicus 3,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,16S,ASV_932946,143,SMP_1117,04-04-2023,8.80698,84.04744,57,Bay of Bengal,PANGAEA,PRJNA635242,SRR6584263,10.1594/PANGAEA.344761
+Nemipterus japonicus 3,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_964909,309,SMP_7469,28-04-2023,16.09786,72.78817,20,Arabian Sea,OBIS,PRJNA489678,SRR1854016,10.1594/PANGAEA.204537
+Lutjanus campechanus 3,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,COI,ASV_182180,302,SMP_2917,19-05-2023,19.08219,75.69541,3,Arabian Sea,ENA,PRJNA866641,SRR5909047,10.1594/PANGAEA.689833
+Lutjanus campechanus 3,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,16S,ASV_722117,147,SMP_3219,13-01-2023,15.74172,70.10883,63,Arabian Sea,SRA,PRJNA872042,SRR3190222,10.1594/PANGAEA.704055
+Lutjanus campechanus 3,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,16S,ASV_446699,428,SMP_8984,10-03-2023,17.71336,91.16065,78,Arabian Sea,OBIS,PRJNA988266,SRR4609736,10.1594/PANGAEA.820801
+Epinephelus malabaricus 3,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_639812,44,SMP_3560,23-10-2023,16.24155,69.15427,93,Andaman Sea,SRA,PRJNA158596,SRR4925282,10.1594/PANGAEA.973172
+Epinephelus malabaricus 3,Chordata,Actinopterygii,Perciformes,Serranidae,species,12S,ASV_139711,348,SMP_8546,19-03-2023,13.56138,76.61193,42,Arabian Sea,ENA,PRJNA929735,SRR8021862,10.1594/PANGAEA.784647
+Epinephelus malabaricus 3,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_511597,134,SMP_7565,19-12-2023,16.59273,80.06529,25,Arabian Sea,SRA,PRJNA635534,SRR5633078,10.1594/PANGAEA.611937
+Decapterus russelli 3,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_367552,113,SMP_5018,08-02-2023,8.07812,90.55597,7,Andaman Sea,OBIS,PRJNA590025,SRR5537358,10.1594/PANGAEA.957756
+Decapterus russelli 3,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_945633,240,SMP_1922,06-06-2023,8.54761,75.48133,27,Andaman Sea,SRA,PRJNA465821,SRR7097091,10.1594/PANGAEA.381173
+Decapterus russelli 3,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_164772,14,SMP_2865,19-12-2023,7.88937,80.87555,47,Arabian Sea,OBIS,PRJNA950867,SRR2805468,10.1594/PANGAEA.382247
+Scomberomorus commerson 3,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_964266,56,SMP_3371,28-11-2023,16.92041,68.29287,36,Bay of Bengal,PANGAEA,PRJNA754618,SRR9357956,10.1594/PANGAEA.695603
+Scomberomorus commerson 3,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_288014,339,SMP_7166,30-10-2023,10.38705,82.75881,90,Arabian Sea,OBIS,PRJNA225885,SRR9930264,10.1594/PANGAEA.770688
+Scomberomorus commerson 3,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_209945,469,SMP_8147,22-12-2023,18.90313,86.96203,37,Andaman Sea,ENA,PRJNA127632,SRR9888923,10.1594/PANGAEA.820670
+Johnius dussumieri 3,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_594592,60,SMP_8196,23-10-2023,17.84594,89.85647,1,Bay of Bengal,SRA,PRJNA232717,SRR7671318,10.1594/PANGAEA.905688
+Johnius dussumieri 3,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_950163,447,SMP_5662,29-05-2023,11.62063,85.86199,74,Arabian Sea,SRA,PRJNA984377,SRR7304680,10.1594/PANGAEA.140738
+Johnius dussumieri 3,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_604471,99,SMP_8973,29-07-2023,12.9913,90.04291,43,Andaman Sea,OBIS,PRJNA752026,SRR1996530,10.1594/PANGAEA.871253
+Thunnus albacares 4,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_247313,464,SMP_6299,17-07-2023,6.95737,75.47536,29,Andaman Sea,PANGAEA,PRJNA891189,SRR6786265,10.1594/PANGAEA.765755
+Thunnus albacares 4,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_881452,58,SMP_1966,03-12-2023,19.47445,71.56791,86,Andaman Sea,SRA,PRJNA687111,SRR8022336,10.1594/PANGAEA.626047
+Thunnus albacares 4,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_320178,224,SMP_3482,30-07-2023,11.21672,79.23756,49,Arabian Sea,SRA,PRJNA714685,SRR3694287,10.1594/PANGAEA.717895
+Sardinella longiceps 4,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,COI,ASV_410914,266,SMP_6490,24-06-2023,13.62324,80.82694,94,Bay of Bengal,PANGAEA,PRJNA951587,SRR6517366,10.1594/PANGAEA.402950
+Sardinella longiceps 4,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,COI,ASV_176218,467,SMP_7305,28-03-2023,19.71557,88.15493,7,Arabian Sea,OBIS,PRJNA997336,SRR3602967,10.1594/PANGAEA.392822
+Sardinella longiceps 4,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,16S,ASV_973559,337,SMP_8221,06-09-2023,17.29887,72.28507,97,Andaman Sea,OBIS,PRJNA427073,SRR3694946,10.1594/PANGAEA.134911
+Rastrelliger kanagurta 4,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_808754,297,SMP_3538,14-06-2023,8.4046,77.75342,55,Bay of Bengal,PANGAEA,PRJNA890857,SRR7569632,10.1594/PANGAEA.626486
+Rastrelliger kanagurta 4,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_989302,412,SMP_2308,07-07-2023,16.00327,89.85498,69,Andaman Sea,ENA,PRJNA770718,SRR4376513,10.1594/PANGAEA.194914
+Rastrelliger kanagurta 4,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_864757,405,SMP_2555,18-09-2023,11.16009,86.57203,9,Bay of Bengal,SRA,PRJNA238155,SRR4266402,10.1594/PANGAEA.881817
+Auxis thazard 4,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_422918,211,SMP_3679,28-02-2023,18.57646,87.19653,81,Bay of Bengal,PANGAEA,PRJNA127856,SRR3859244,10.1594/PANGAEA.986040
+Auxis thazard 4,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_423412,255,SMP_2301,23-08-2023,12.193,71.17463,29,Arabian Sea,ENA,PRJNA488822,SRR2014929,10.1594/PANGAEA.618271
+Auxis thazard 4,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_599512,365,SMP_9232,03-02-2023,13.9814,83.63409,76,Andaman Sea,SRA,PRJNA140809,SRR1716756,10.1594/PANGAEA.151226
+Nemipterus japonicus 4,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,16S,ASV_784733,143,SMP_5263,08-04-2023,14.60698,83.96088,71,Bay of Bengal,SRA,PRJNA397881,SRR9752084,10.1594/PANGAEA.451707
+Nemipterus japonicus 4,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,COI,ASV_880298,55,SMP_5225,06-11-2023,16.46345,69.98717,36,Andaman Sea,ENA,PRJNA677564,SRR5902666,10.1594/PANGAEA.613319
+Nemipterus japonicus 4,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_305550,196,SMP_2333,08-04-2023,11.85477,90.89809,22,Arabian Sea,OBIS,PRJNA515008,SRR2631993,10.1594/PANGAEA.861379
+Lutjanus campechanus 4,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,16S,ASV_658296,236,SMP_8101,31-12-2023,8.58807,82.95998,66,Arabian Sea,SRA,PRJNA901480,SRR7984720,10.1594/PANGAEA.941344
+Lutjanus campechanus 4,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,12S,ASV_675762,436,SMP_2639,11-02-2023,12.7057,69.8224,44,Andaman Sea,ENA,PRJNA644869,SRR2661793,10.1594/PANGAEA.385195
+Lutjanus campechanus 4,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,12S,ASV_493554,53,SMP_5090,01-11-2023,8.34705,90.8057,55,Arabian Sea,PANGAEA,PRJNA251563,SRR5894287,10.1594/PANGAEA.714615
+Epinephelus malabaricus 4,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_137641,158,SMP_2750,17-07-2023,19.73779,89.68073,12,Andaman Sea,PANGAEA,PRJNA611897,SRR4498472,10.1594/PANGAEA.616142
+Epinephelus malabaricus 4,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_666074,410,SMP_6913,27-03-2023,18.85909,68.8147,7,Arabian Sea,PANGAEA,PRJNA442703,SRR9593223,10.1594/PANGAEA.576657
+Epinephelus malabaricus 4,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_437054,486,SMP_7737,11-08-2023,18.13758,88.26919,18,Andaman Sea,ENA,PRJNA166150,SRR8951632,10.1594/PANGAEA.189613
+Decapterus russelli 4,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_941052,117,SMP_8980,08-04-2023,18.44748,80.72636,90,Andaman Sea,PANGAEA,PRJNA833547,SRR2841648,10.1594/PANGAEA.406691
+Decapterus russelli 4,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_830892,418,SMP_8564,29-07-2023,13.52227,78.24361,66,Andaman Sea,PANGAEA,PRJNA559297,SRR8465373,10.1594/PANGAEA.915862
+Decapterus russelli 4,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_911006,283,SMP_4810,08-02-2023,6.62805,69.26441,93,Bay of Bengal,SRA,PRJNA293259,SRR8969693,10.1594/PANGAEA.281144
+Scomberomorus commerson 4,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_867950,349,SMP_4760,03-01-2023,12.8087,75.12807,68,Bay of Bengal,ENA,PRJNA533816,SRR1785332,10.1594/PANGAEA.845453
+Scomberomorus commerson 4,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_752589,408,SMP_9056,10-12-2023,8.17991,90.95398,37,Arabian Sea,SRA,PRJNA338506,SRR8996198,10.1594/PANGAEA.811998
+Scomberomorus commerson 4,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_402186,71,SMP_2868,14-08-2023,8.75496,91.78805,59,Arabian Sea,PANGAEA,PRJNA531413,SRR5165100,10.1594/PANGAEA.963561
+Johnius dussumieri 4,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_176898,322,SMP_3265,29-08-2023,19.42315,87.82894,5,Arabian Sea,ENA,PRJNA565966,SRR7357718,10.1594/PANGAEA.933032
+Johnius dussumieri 4,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_568974,250,SMP_8657,27-06-2023,13.13102,91.91206,3,Andaman Sea,ENA,PRJNA678316,SRR5988023,10.1594/PANGAEA.395804
+Johnius dussumieri 4,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_465464,338,SMP_5675,23-12-2023,7.73507,89.05906,67,Andaman Sea,OBIS,PRJNA591036,SRR9715912,10.1594/PANGAEA.904034
+Thunnus albacares 5,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_503119,341,SMP_1954,14-08-2023,12.01412,76.94452,72,Andaman Sea,SRA,PRJNA957263,SRR6809041,10.1594/PANGAEA.992964
+Thunnus albacares 5,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_261633,293,SMP_5036,22-03-2023,7.33048,89.18975,62,Arabian Sea,PANGAEA,PRJNA228322,SRR1656951,10.1594/PANGAEA.111303
+Thunnus albacares 5,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_205228,470,SMP_2312,19-09-2023,13.53701,88.83586,92,Arabian Sea,PANGAEA,PRJNA558298,SRR2047343,10.1594/PANGAEA.576840
+Sardinella longiceps 5,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,16S,ASV_178249,54,SMP_5286,04-06-2023,16.66167,71.80652,45,Bay of Bengal,SRA,PRJNA935570,SRR1709662,10.1594/PANGAEA.671926
+Sardinella longiceps 5,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,COI,ASV_175713,169,SMP_7506,07-06-2023,18.76747,68.02688,2,Bay of Bengal,SRA,PRJNA716412,SRR4761675,10.1594/PANGAEA.264134
+Sardinella longiceps 5,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,12S,ASV_278589,55,SMP_2136,21-08-2023,15.02948,74.23529,60,Arabian Sea,PANGAEA,PRJNA232079,SRR7493509,10.1594/PANGAEA.700530
+Rastrelliger kanagurta 5,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_238563,83,SMP_6352,12-08-2023,17.84164,77.41163,79,Bay of Bengal,SRA,PRJNA827955,SRR2656671,10.1594/PANGAEA.538755
+Rastrelliger kanagurta 5,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_779181,201,SMP_2040,12-01-2023,7.40923,81.97209,65,Bay of Bengal,ENA,PRJNA476826,SRR4659985,10.1594/PANGAEA.954321
+Rastrelliger kanagurta 5,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_131598,294,SMP_5811,13-06-2023,15.24224,82.2655,76,Andaman Sea,SRA,PRJNA748074,SRR6155872,10.1594/PANGAEA.632101
+Auxis thazard 5,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_544191,425,SMP_4356,04-01-2023,12.25345,78.83329,39,Andaman Sea,PANGAEA,PRJNA438076,SRR7440010,10.1594/PANGAEA.385555
+Auxis thazard 5,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_521818,184,SMP_4155,22-01-2023,8.27302,88.8333,56,Arabian Sea,SRA,PRJNA532430,SRR8552975,10.1594/PANGAEA.883204
+Auxis thazard 5,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_444855,156,SMP_6626,14-09-2023,10.83003,85.38614,34,Arabian Sea,PANGAEA,PRJNA650719,SRR5017136,10.1594/PANGAEA.338360
+Nemipterus japonicus 5,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,COI,ASV_343373,280,SMP_7635,27-07-2023,13.83364,71.8219,89,Arabian Sea,SRA,PRJNA501927,SRR6972558,10.1594/PANGAEA.445114
+Nemipterus japonicus 5,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,COI,ASV_884838,208,SMP_1959,30-06-2023,18.80979,91.22027,20,Bay of Bengal,PANGAEA,PRJNA430904,SRR6290717,10.1594/PANGAEA.618349
+Nemipterus japonicus 5,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_856097,391,SMP_2875,16-08-2023,14.03857,73.41296,60,Andaman Sea,ENA,PRJNA891541,SRR8330292,10.1594/PANGAEA.935700
+Lutjanus campechanus 5,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,16S,ASV_164288,73,SMP_4788,28-07-2023,6.65688,69.73873,64,Bay of Bengal,ENA,PRJNA488590,SRR4151882,10.1594/PANGAEA.777164
+Lutjanus campechanus 5,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,COI,ASV_410931,434,SMP_1778,02-08-2023,16.61368,71.50213,76,Arabian Sea,ENA,PRJNA793919,SRR9107317,10.1594/PANGAEA.720635
+Lutjanus campechanus 5,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,12S,ASV_936501,211,SMP_7047,30-08-2023,10.90723,80.42508,33,Arabian Sea,SRA,PRJNA319724,SRR2947763,10.1594/PANGAEA.681273
+Epinephelus malabaricus 5,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_315048,203,SMP_8014,31-03-2023,15.80778,87.21408,98,Bay of Bengal,PANGAEA,PRJNA424912,SRR8258746,10.1594/PANGAEA.495141
+Epinephelus malabaricus 5,Chordata,Actinopterygii,Perciformes,Serranidae,species,COI,ASV_854122,82,SMP_1552,23-07-2023,18.25808,85.13809,62,Bay of Bengal,PANGAEA,PRJNA649114,SRR1100734,10.1594/PANGAEA.257702
+Epinephelus malabaricus 5,Chordata,Actinopterygii,Perciformes,Serranidae,species,COI,ASV_619052,323,SMP_1021,03-01-2023,7.05018,71.93599,14,Andaman Sea,ENA,PRJNA311957,SRR5335702,10.1594/PANGAEA.734379
+Decapterus russelli 5,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_320971,310,SMP_2266,02-05-2023,10.94174,79.28438,45,Arabian Sea,PANGAEA,PRJNA364500,SRR3976031,10.1594/PANGAEA.739282
+Decapterus russelli 5,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_538716,463,SMP_8057,30-07-2023,9.58414,91.91201,59,Andaman Sea,OBIS,PRJNA441705,SRR4941106,10.1594/PANGAEA.325314
+Decapterus russelli 5,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_960563,447,SMP_7078,26-07-2023,9.97872,79.10295,94,Arabian Sea,PANGAEA,PRJNA683609,SRR3229180,10.1594/PANGAEA.331447
+Scomberomorus commerson 5,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_667873,13,SMP_4453,20-01-2023,13.31541,81.03921,51,Arabian Sea,OBIS,PRJNA519065,SRR5225889,10.1594/PANGAEA.515231
+Scomberomorus commerson 5,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_516495,427,SMP_2394,05-07-2023,18.81691,73.05589,18,Arabian Sea,PANGAEA,PRJNA943488,SRR5214279,10.1594/PANGAEA.257795
+Scomberomorus commerson 5,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_201459,96,SMP_1525,30-11-2023,13.42031,77.91275,38,Arabian Sea,SRA,PRJNA790493,SRR6540070,10.1594/PANGAEA.540280
+Johnius dussumieri 5,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_853315,240,SMP_4216,11-12-2023,19.58707,74.1952,5,Andaman Sea,SRA,PRJNA252999,SRR5542923,10.1594/PANGAEA.161367
+Johnius dussumieri 5,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_119816,416,SMP_4374,14-10-2023,9.68668,69.76392,14,Bay of Bengal,SRA,PRJNA482729,SRR7105931,10.1594/PANGAEA.211453
+Johnius dussumieri 5,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_192324,142,SMP_6895,20-06-2023,19.30588,74.06067,84,Arabian Sea,PANGAEA,PRJNA417348,SRR6425838,10.1594/PANGAEA.377707
+Thunnus albacares 6,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_846788,129,SMP_3203,26-07-2023,14.03489,80.95774,20,Bay of Bengal,ENA,PRJNA967969,SRR9061896,10.1594/PANGAEA.802974
+Thunnus albacares 6,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_796595,294,SMP_7262,04-02-2023,12.60469,90.413,69,Arabian Sea,SRA,PRJNA950610,SRR4040267,10.1594/PANGAEA.743561
+Thunnus albacares 6,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_106570,251,SMP_2239,08-09-2023,6.56669,90.84348,50,Arabian Sea,SRA,PRJNA246470,SRR7935774,10.1594/PANGAEA.418647
+Sardinella longiceps 6,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,COI,ASV_747296,416,SMP_8595,21-10-2023,8.38529,68.71937,45,Bay of Bengal,ENA,PRJNA497686,SRR5990961,10.1594/PANGAEA.601076
+Sardinella longiceps 6,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,16S,ASV_128625,273,SMP_7812,18-12-2023,9.66658,91.12032,47,Bay of Bengal,SRA,PRJNA596758,SRR9121757,10.1594/PANGAEA.548625
+Sardinella longiceps 6,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,12S,ASV_933487,35,SMP_4719,30-10-2023,14.20323,68.72929,72,Arabian Sea,ENA,PRJNA201376,SRR4570834,10.1594/PANGAEA.965566
+Rastrelliger kanagurta 6,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_782568,62,SMP_9125,08-08-2023,8.65038,82.51889,63,Arabian Sea,SRA,PRJNA828744,SRR5936792,10.1594/PANGAEA.735567
+Rastrelliger kanagurta 6,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_985736,86,SMP_4230,20-11-2023,15.28191,86.36458,4,Bay of Bengal,PANGAEA,PRJNA136321,SRR3432593,10.1594/PANGAEA.983084
+Rastrelliger kanagurta 6,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_858470,348,SMP_2388,27-11-2023,11.57158,75.12486,71,Arabian Sea,SRA,PRJNA628014,SRR6594176,10.1594/PANGAEA.127723
+Auxis thazard 6,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_387681,414,SMP_3875,03-04-2023,12.55736,73.70106,35,Bay of Bengal,ENA,PRJNA734122,SRR9100706,10.1594/PANGAEA.553449
+Auxis thazard 6,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_706177,274,SMP_7228,09-10-2023,19.34496,88.33202,28,Arabian Sea,SRA,PRJNA887609,SRR6537803,10.1594/PANGAEA.383780
+Auxis thazard 6,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_401454,472,SMP_9234,09-12-2023,17.47531,85.23495,43,Arabian Sea,SRA,PRJNA950538,SRR5156532,10.1594/PANGAEA.449307
+Nemipterus japonicus 6,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_893583,301,SMP_9906,20-02-2023,7.31361,90.42646,86,Andaman Sea,ENA,PRJNA408557,SRR7428540,10.1594/PANGAEA.805475
+Nemipterus japonicus 6,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_800336,61,SMP_4610,06-06-2023,17.34085,80.93987,16,Bay of Bengal,OBIS,PRJNA557373,SRR6613201,10.1594/PANGAEA.112289
+Nemipterus japonicus 6,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_905175,141,SMP_3137,11-12-2023,13.55349,70.95734,74,Andaman Sea,SRA,PRJNA163646,SRR9654406,10.1594/PANGAEA.582238
+Lutjanus campechanus 6,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,12S,ASV_311830,435,SMP_9636,25-10-2023,18.88966,78.18866,7,Bay of Bengal,SRA,PRJNA957463,SRR2455465,10.1594/PANGAEA.712492
+Lutjanus campechanus 6,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,COI,ASV_655689,127,SMP_2300,02-08-2023,14.51277,87.04985,15,Bay of Bengal,OBIS,PRJNA700441,SRR7002296,10.1594/PANGAEA.175388
+Lutjanus campechanus 6,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,12S,ASV_443715,163,SMP_2316,09-03-2023,10.20988,87.74274,60,Andaman Sea,ENA,PRJNA975352,SRR8667857,10.1594/PANGAEA.334386
+Epinephelus malabaricus 6,Chordata,Actinopterygii,Perciformes,Serranidae,species,COI,ASV_789115,490,SMP_1482,18-04-2023,18.14776,73.20176,81,Bay of Bengal,OBIS,PRJNA168388,SRR6783182,10.1594/PANGAEA.192578
+Epinephelus malabaricus 6,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_486601,169,SMP_9841,19-03-2023,15.03221,69.40291,25,Bay of Bengal,OBIS,PRJNA998850,SRR1257681,10.1594/PANGAEA.194018
+Epinephelus malabaricus 6,Chordata,Actinopterygii,Perciformes,Serranidae,species,COI,ASV_416397,134,SMP_7602,07-10-2023,8.23332,70.49863,90,Bay of Bengal,ENA,PRJNA131007,SRR4105958,10.1594/PANGAEA.794892
+Decapterus russelli 6,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_372900,362,SMP_8843,14-03-2023,10.86552,73.43975,41,Andaman Sea,OBIS,PRJNA216492,SRR6181057,10.1594/PANGAEA.825947
+Decapterus russelli 6,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_749829,169,SMP_8397,19-07-2023,15.28684,80.79099,58,Andaman Sea,ENA,PRJNA329189,SRR7689921,10.1594/PANGAEA.351051
+Decapterus russelli 6,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_391126,300,SMP_5211,21-09-2023,14.33641,70.13042,69,Arabian Sea,SRA,PRJNA372670,SRR5001070,10.1594/PANGAEA.125592
+Scomberomorus commerson 6,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_727035,455,SMP_7813,01-05-2023,17.59439,68.02968,16,Andaman Sea,OBIS,PRJNA967869,SRR2147116,10.1594/PANGAEA.959414
+Scomberomorus commerson 6,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_219968,113,SMP_7099,26-12-2023,16.8761,73.84776,30,Arabian Sea,OBIS,PRJNA317029,SRR6859046,10.1594/PANGAEA.891327
+Scomberomorus commerson 6,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_970848,281,SMP_3785,22-05-2023,8.08826,73.45658,66,Arabian Sea,SRA,PRJNA659873,SRR4324664,10.1594/PANGAEA.492136
+Johnius dussumieri 6,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_826331,332,SMP_6299,09-07-2023,12.53723,82.41426,55,Bay of Bengal,PANGAEA,PRJNA714805,SRR4735466,10.1594/PANGAEA.634670
+Johnius dussumieri 6,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_173861,253,SMP_5107,27-08-2023,11.86191,80.95358,45,Andaman Sea,ENA,PRJNA291703,SRR6287913,10.1594/PANGAEA.687421
+Johnius dussumieri 6,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_286321,345,SMP_8693,14-03-2023,10.85413,68.54945,91,Bay of Bengal,PANGAEA,PRJNA754801,SRR2252557,10.1594/PANGAEA.204211
+Thunnus albacares 7,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_738387,34,SMP_9984,10-09-2023,18.1372,90.14617,14,Arabian Sea,ENA,PRJNA393199,SRR6185773,10.1594/PANGAEA.245788
+Thunnus albacares 7,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_582315,492,SMP_2960,25-01-2023,15.49514,70.92229,21,Bay of Bengal,OBIS,PRJNA772280,SRR9944718,10.1594/PANGAEA.664396
+Thunnus albacares 7,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_323894,40,SMP_1845,20-01-2023,12.43341,70.53595,6,Arabian Sea,PANGAEA,PRJNA972701,SRR5254849,10.1594/PANGAEA.334555
+Sardinella longiceps 7,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,16S,ASV_793206,296,SMP_8154,05-01-2023,17.04028,79.03521,2,Bay of Bengal,PANGAEA,PRJNA543057,SRR3061774,10.1594/PANGAEA.256104
+Sardinella longiceps 7,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,16S,ASV_123312,402,SMP_6448,05-06-2023,10.59421,70.4251,80,Arabian Sea,OBIS,PRJNA671139,SRR3590310,10.1594/PANGAEA.679111
+Sardinella longiceps 7,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,12S,ASV_282268,368,SMP_2403,04-11-2023,8.84566,83.73737,38,Andaman Sea,ENA,PRJNA508638,SRR3430525,10.1594/PANGAEA.199071
+Rastrelliger kanagurta 7,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_334213,16,SMP_2549,17-08-2023,11.72556,91.13173,55,Bay of Bengal,ENA,PRJNA714106,SRR3627988,10.1594/PANGAEA.741269
+Rastrelliger kanagurta 7,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_546636,158,SMP_7793,10-11-2023,9.06088,82.85476,13,Arabian Sea,ENA,PRJNA737420,SRR4246417,10.1594/PANGAEA.802436
+Rastrelliger kanagurta 7,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_399631,492,SMP_5592,07-07-2023,15.22222,79.98401,55,Arabian Sea,ENA,PRJNA110749,SRR7919875,10.1594/PANGAEA.780481
+Auxis thazard 7,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_103191,241,SMP_8394,21-08-2023,14.7901,88.62957,42,Arabian Sea,ENA,PRJNA479504,SRR3521279,10.1594/PANGAEA.263856
+Auxis thazard 7,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_489878,434,SMP_7272,10-05-2023,12.40764,74.11209,10,Bay of Bengal,ENA,PRJNA652959,SRR3319124,10.1594/PANGAEA.877499
+Auxis thazard 7,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_323332,273,SMP_7869,19-07-2023,9.56402,89.34538,87,Arabian Sea,PANGAEA,PRJNA654399,SRR3161088,10.1594/PANGAEA.777974
+Nemipterus japonicus 7,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_739341,209,SMP_4456,19-04-2023,17.32876,70.52882,17,Arabian Sea,OBIS,PRJNA974772,SRR4764455,10.1594/PANGAEA.241214
+Nemipterus japonicus 7,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,16S,ASV_703103,445,SMP_6330,28-01-2023,11.29036,77.89114,5,Bay of Bengal,ENA,PRJNA569511,SRR7071845,10.1594/PANGAEA.521486
+Nemipterus japonicus 7,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_552776,232,SMP_4839,26-12-2023,14.93296,77.16655,50,Andaman Sea,SRA,PRJNA282051,SRR8437693,10.1594/PANGAEA.797960
+Lutjanus campechanus 7,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,12S,ASV_732500,387,SMP_5285,12-09-2023,19.5746,87.16914,12,Andaman Sea,OBIS,PRJNA903585,SRR2370485,10.1594/PANGAEA.854444
+Lutjanus campechanus 7,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,16S,ASV_570641,409,SMP_9714,10-01-2023,11.06661,90.27401,55,Arabian Sea,SRA,PRJNA170119,SRR9181883,10.1594/PANGAEA.729720
+Lutjanus campechanus 7,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,COI,ASV_287921,423,SMP_1685,23-04-2023,15.21845,74.86176,32,Bay of Bengal,PANGAEA,PRJNA607942,SRR3659083,10.1594/PANGAEA.406094
+Epinephelus malabaricus 7,Chordata,Actinopterygii,Perciformes,Serranidae,species,12S,ASV_158005,406,SMP_8165,29-05-2023,19.70836,85.95661,7,Andaman Sea,OBIS,PRJNA732543,SRR8076042,10.1594/PANGAEA.551157
+Epinephelus malabaricus 7,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_584814,354,SMP_8003,12-10-2023,16.32729,70.59065,85,Andaman Sea,OBIS,PRJNA780218,SRR2228337,10.1594/PANGAEA.668926
+Epinephelus malabaricus 7,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_968374,416,SMP_5183,13-02-2023,16.39282,81.01369,61,Arabian Sea,OBIS,PRJNA632994,SRR3892478,10.1594/PANGAEA.446130
+Decapterus russelli 7,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_715684,39,SMP_6926,18-04-2023,15.08993,86.26692,8,Bay of Bengal,ENA,PRJNA333103,SRR3513024,10.1594/PANGAEA.155147
+Decapterus russelli 7,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_860109,458,SMP_7019,14-04-2023,9.11838,89.1156,98,Andaman Sea,SRA,PRJNA758441,SRR1689556,10.1594/PANGAEA.792095
+Decapterus russelli 7,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_189464,228,SMP_3159,13-01-2023,13.77239,80.57982,90,Bay of Bengal,ENA,PRJNA791211,SRR5476321,10.1594/PANGAEA.664660
+Scomberomorus commerson 7,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_959877,409,SMP_2778,11-08-2023,10.62566,89.03962,58,Andaman Sea,SRA,PRJNA334627,SRR5742297,10.1594/PANGAEA.822724
+Scomberomorus commerson 7,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_169122,319,SMP_3023,25-12-2023,6.54345,82.87014,4,Arabian Sea,SRA,PRJNA389910,SRR3165251,10.1594/PANGAEA.529276
+Scomberomorus commerson 7,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_521947,345,SMP_7841,24-02-2023,15.98974,69.2673,24,Bay of Bengal,ENA,PRJNA346353,SRR3504594,10.1594/PANGAEA.294718
+Johnius dussumieri 7,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_241330,314,SMP_4390,30-07-2023,7.29044,76.02172,30,Bay of Bengal,ENA,PRJNA637716,SRR4916643,10.1594/PANGAEA.869727
+Johnius dussumieri 7,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_133787,237,SMP_6469,02-07-2023,16.42933,73.66058,63,Arabian Sea,PANGAEA,PRJNA518267,SRR6532410,10.1594/PANGAEA.342634
+Johnius dussumieri 7,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_604409,310,SMP_2283,28-05-2023,17.1063,70.84007,70,Andaman Sea,ENA,PRJNA741147,SRR5382794,10.1594/PANGAEA.507688
+Thunnus albacares 8,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_123284,70,SMP_9329,19-02-2023,8.73147,84.80605,94,Bay of Bengal,ENA,PRJNA622220,SRR8948140,10.1594/PANGAEA.577746
+Thunnus albacares 8,Chordata,Actinopterygii,Scombriformes,Scombridae,species,16S,ASV_518495,435,SMP_9738,29-10-2023,9.54481,77.04594,64,Arabian Sea,OBIS,PRJNA757456,SRR7814612,10.1594/PANGAEA.869097
+Thunnus albacares 8,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_530267,365,SMP_4331,06-05-2023,16.32718,79.91507,1,Arabian Sea,OBIS,PRJNA667109,SRR4651387,10.1594/PANGAEA.107531
+Sardinella longiceps 8,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,12S,ASV_173997,40,SMP_2619,01-06-2023,12.87282,68.32166,24,Bay of Bengal,ENA,PRJNA764917,SRR4801250,10.1594/PANGAEA.119675
+Sardinella longiceps 8,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,COI,ASV_905113,345,SMP_3014,16-04-2023,17.90466,74.43534,73,Arabian Sea,OBIS,PRJNA814423,SRR1658003,10.1594/PANGAEA.402929
+Sardinella longiceps 8,Chordata,Actinopterygii,Clupeiformes,Clupeidae,species,16S,ASV_335718,450,SMP_1689,07-01-2023,7.66673,73.68282,32,Andaman Sea,OBIS,PRJNA351351,SRR7762126,10.1594/PANGAEA.338511
+Rastrelliger kanagurta 8,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_162292,435,SMP_3539,22-05-2023,16.36608,91.55113,82,Arabian Sea,PANGAEA,PRJNA349430,SRR1450930,10.1594/PANGAEA.450040
+Rastrelliger kanagurta 8,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_592092,454,SMP_9616,10-06-2023,8.54183,73.40761,71,Bay of Bengal,PANGAEA,PRJNA888768,SRR1206487,10.1594/PANGAEA.197852
+Rastrelliger kanagurta 8,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_803305,37,SMP_8097,12-02-2023,7.41352,84.98804,17,Bay of Bengal,ENA,PRJNA412813,SRR6451973,10.1594/PANGAEA.431328
+Auxis thazard 8,Chordata,Actinopterygii,Scombriformes,Scombridae,species,12S,ASV_550542,14,SMP_2537,22-01-2023,17.97467,84.05654,98,Andaman Sea,SRA,PRJNA169286,SRR7550091,10.1594/PANGAEA.174071
+Auxis thazard 8,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_633571,453,SMP_5666,18-05-2023,19.70383,87.05575,49,Andaman Sea,SRA,PRJNA768179,SRR9070297,10.1594/PANGAEA.688158
+Auxis thazard 8,Chordata,Actinopterygii,Scombriformes,Scombridae,species,COI,ASV_642777,381,SMP_6774,20-08-2023,18.35071,89.10996,92,Bay of Bengal,PANGAEA,PRJNA549916,SRR9678376,10.1594/PANGAEA.631111
+Nemipterus japonicus 8,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,COI,ASV_279635,378,SMP_3113,05-09-2023,12.76307,89.82128,97,Bay of Bengal,OBIS,PRJNA118658,SRR1021253,10.1594/PANGAEA.557382
+Nemipterus japonicus 8,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,16S,ASV_777160,98,SMP_3426,27-06-2023,7.76101,78.58573,11,Bay of Bengal,OBIS,PRJNA222775,SRR6163515,10.1594/PANGAEA.657531
+Nemipterus japonicus 8,Chordata,Actinopterygii,Lophiiformes,Nemipteridae,species,12S,ASV_577958,94,SMP_8239,24-02-2023,15.17611,72.70018,82,Bay of Bengal,OBIS,PRJNA522355,SRR2256715,10.1594/PANGAEA.180257
+Lutjanus campechanus 8,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,16S,ASV_379215,374,SMP_1258,10-10-2023,10.23821,91.60452,33,Arabian Sea,PANGAEA,PRJNA713375,SRR2768967,10.1594/PANGAEA.919812
+Lutjanus campechanus 8,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,16S,ASV_131852,110,SMP_3307,03-09-2023,18.0678,70.82346,11,Bay of Bengal,PANGAEA,PRJNA467631,SRR1578688,10.1594/PANGAEA.256222
+Lutjanus campechanus 8,Chordata,Actinopterygii,Perciformes,Lutjanidae,species,16S,ASV_896184,30,SMP_1669,26-09-2023,10.86065,91.92988,95,Andaman Sea,PANGAEA,PRJNA906527,SRR4817242,10.1594/PANGAEA.501220
+Epinephelus malabaricus 8,Chordata,Actinopterygii,Perciformes,Serranidae,species,16S,ASV_361691,362,SMP_4864,03-06-2023,7.57199,85.55592,61,Arabian Sea,SRA,PRJNA195665,SRR6898885,10.1594/PANGAEA.262002
+Epinephelus malabaricus 8,Chordata,Actinopterygii,Perciformes,Serranidae,species,12S,ASV_956047,404,SMP_6569,30-12-2023,12.70008,76.58716,98,Bay of Bengal,PANGAEA,PRJNA887019,SRR9578845,10.1594/PANGAEA.862841
+Epinephelus malabaricus 8,Chordata,Actinopterygii,Perciformes,Serranidae,species,12S,ASV_302041,165,SMP_4831,06-08-2023,7.85861,73.75698,52,Bay of Bengal,SRA,PRJNA827346,SRR5862894,10.1594/PANGAEA.522225
+Decapterus russelli 8,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_289139,450,SMP_3326,25-06-2023,14.29287,85.71366,11,Bay of Bengal,PANGAEA,PRJNA394746,SRR6710754,10.1594/PANGAEA.571328
+Decapterus russelli 8,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_645735,281,SMP_7049,07-03-2023,10.75141,68.09161,47,Andaman Sea,ENA,PRJNA204648,SRR3650235,10.1594/PANGAEA.286368
+Decapterus russelli 8,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_472013,352,SMP_9831,10-07-2023,11.09513,88.79328,47,Bay of Bengal,PANGAEA,PRJNA727220,SRR9329442,10.1594/PANGAEA.543316
+Scomberomorus commerson 8,Chordata,Actinopterygii,Unknown,Unknown,species,COI,ASV_683098,493,SMP_1459,08-02-2023,17.39985,69.41825,79,Bay of Bengal,PANGAEA,PRJNA973093,SRR1809178,10.1594/PANGAEA.692278
+Scomberomorus commerson 8,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_895219,363,SMP_7701,07-02-2023,9.56086,77.15869,62,Andaman Sea,PANGAEA,PRJNA564894,SRR6779277,10.1594/PANGAEA.384154
+Scomberomorus commerson 8,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_339017,290,SMP_1423,10-12-2023,6.86686,91.18984,22,Arabian Sea,PANGAEA,PRJNA615693,SRR3636722,10.1594/PANGAEA.578082
+Johnius dussumieri 8,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_835036,210,SMP_6075,22-06-2023,19.49794,85.4401,19,Andaman Sea,OBIS,PRJNA235565,SRR3409381,10.1594/PANGAEA.658516
+Johnius dussumieri 8,Chordata,Actinopterygii,Unknown,Unknown,species,12S,ASV_302435,295,SMP_1264,16-11-2023,14.15681,74.81188,14,Andaman Sea,SRA,PRJNA609666,SRR5319453,10.1594/PANGAEA.853704
+Johnius dussumieri 8,Chordata,Actinopterygii,Unknown,Unknown,species,16S,ASV_385711,77,SMP_1987,21-09-2023,18.34303,75.92979,86,Arabian Sea,OBIS,PRJNA217886,SRR6051646,10.1594/PANGAEA.579926

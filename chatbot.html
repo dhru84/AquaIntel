@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Aquainel — Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Chat styles layered on top of styles.css */
+    html,body{background:linear-gradient(180deg,#0b1220,#0a152a)}
+    .chat-shell{max-width:900px;margin:16px auto 120px;padding:0 16px}
+    .chat-hero{background:linear-gradient(180deg,#0f172a,#0b1220);border:1px solid #1f2937;border-radius:16px;padding:18px;margin-bottom:16px}
+    .chat-hero h1{margin:4px 0 6px;font-size:24px;color:#dbeafe}
+    .sub{color:#93c5fd;font-size:14px}
+    .chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .chip{background:#0b1526;border:1px solid #1f2b45;color:#cbe1ff;border-radius:999px;padding:8px 12px;font-size:13px;cursor:pointer}
+    .chip:hover{border-color:#38bdf8;color:#fff}
+
+    .chat-box{background:linear-gradient(180deg,#0f172a,#0b1220);border:1px solid #1f2937;border-radius:16px;padding:0;overflow:hidden}
+    .messages{max-height:520px;overflow:auto;padding:14px}
+    .msg{display:flex;gap:10px;margin:10px 0}
+    .msg .bubble{padding:10px 12px;border-radius:12px;border:1px solid #1f2937;max-width:78%}
+    .me .bubble{background:#102038;color:#e5f0ff}
+    .bot .bubble{background:#0b1526;color:#dbeafe}
+    .bot .label{color:#93c5fd}
+    .me .label{color:#94facc}
+    .label{font-size:12px;margin-bottom:4px}
+
+    .composer{display:flex;gap:10px;align-items:center;border-top:1px solid #1f2937;padding:10px;background:#0b1220}
+    .composer input[type="text"]{flex:1;background:#0b152a;border:1px solid #1f2b45;border-radius:12px;color:#dbeafe;padding:12px 14px;outline:none}
+    .composer input[type="text"]:focus{border-color:#2563eb;box-shadow:0 0 0 3px #2563eb33}
+    .composer .btn{white-space:nowrap}
+    .upl{display:none}
+    .upl-lbl{display:inline-flex;align-items:center;gap:8px;border:1px solid #234;background:linear-gradient(180deg,#102038,#0d1a30);color:#e5f0ff;padding:10px 12px;border-radius:12px;cursor:pointer}
+    .upl-lbl:hover{border-color:#38bdf8;color:#fff}
+
+    .suggest{background:linear-gradient(180deg,#0f172a,#0b1220);border:1px solid #1f2937;border-radius:16px;padding:16px;margin-top:16px}
+    .suggest h3{margin:0 0 8px;color:#dbeafe}
+    .suggest ul{margin:8px 0 0 18px}
+    .suggest li{margin:6px 0;color:#cbd5e1;cursor:pointer}
+    .suggest li:hover{color:#fff}
+
+    .img-prev{margin-top:10px;border:1px dashed #27435e;border-radius:12px;overflow:hidden}
+    .img-prev img{display:block;max-width:100%}
+
+    .muted{color:#94a3b8;font-size:12px;margin-top:8px}
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand"><div class="logo"></div><div class="name">Aquainel</div></div>
+      <div><a class="go" href="/">Home</a></div>
+    </div>
+  </div>
+
+  <div class="chat-shell">
+    <div class="chat-hero">
+      <h1>Welcome to Aquainel Chatbot</h1>
+      <div class="sub">Ask ur queries — choose a suggested question below or type in the box.</div>
+      <div class="chips" id="chips"></div>
+    </div>
+
+    <div class="chat-box">
+      <div class="messages" id="msgs"></div>
+      <div class="composer">
+        <label for="upl" class="upl-lbl">📷 Add pic</label>
+        <input id="upl" class="upl" type="file" accept="image/*">
+        <input id="inp" type="text" placeholder="Select a suggested question or type here (answers only for listed EEZ topics)">
+        <button class="btn" id="send">Send</button>
+      </div>
+    </div>
+
+    <div class="suggest">
+      <h3>Suggested questions (General EEZ)</h3>
+      <ul id="list"></ul>
+      <div class="muted">Note: The chatbot answers only to these general EEZ topics to keep responses precise.</div>
+    </div>
+  </div>
+
+<script>
+/* General EEZ questions — 15 total (first 5 are pinned chips) */
+const allowedQs = [
+  // Pinned 5
+  "What is an Exclusive Economic Zone (EEZ)?",
+  "How far does a country’s EEZ extend from the coast?",
+  "What is the difference between territorial sea and EEZ?",
+  "What rights does a coastal state have in its EEZ?",
+  "What is the contiguous zone and how wide is it?",
+  // Additional 10
+  "Does the EEZ include the right of innocent passage?",
+  "What activities are allowed for foreign ships in an EEZ?",
+  "What is the continental shelf and can it extend beyond 200 nm?",
+  "How large is India’s EEZ approximately?",
+  "Who defines the global rules for EEZs?",
+  "What happens when two countries’ EEZs overlap?",
+  "Can a state restrict military activities in its EEZ?",
+  "What is the difference between EEZ and high seas?",
+  "How wide is the territorial sea limit for India?",
+  "What is an extended continental shelf (ECS)?"
+];
+
+/* Short, general answers */
+const answers = {
+  "What is an Exclusive Economic Zone (EEZ)?":
+    "An EEZ is a sea area beyond and adjacent to the territorial sea where a coastal State has sovereign rights to explore, exploit, conserve, and manage natural resources of the waters, seabed, and subsoil, along with certain jurisdictional rights.",
+
+  "How far does a country’s EEZ extend from the coast?":
+    "Up to 200 nautical miles from the baselines used to measure the territorial sea.",
+
+  "What is the difference between territorial sea and EEZ?":
+    "The territorial sea (up to 12 nautical miles) is under full sovereignty, subject to innocent passage; the EEZ (up to 200 nm) grants resource and certain jurisdictional rights, not full sovereignty over the waters.",
+
+  "What rights does a coastal state have in its EEZ?":
+    "Sovereign rights for resource exploration and exploitation (living and non‑living), and jurisdiction over artificial islands, marine scientific research, and environmental protection.",
+
+  "What is the contiguous zone and how wide is it?":
+    "A zone contiguous to the territorial sea where a State may enforce customs, fiscal, immigration, and sanitation laws; it may extend up to 24 nautical miles from the baseline.",
+
+  "Does the EEZ include the right of innocent passage?":
+    "Innocent passage applies to the territorial sea. In the EEZ, other States enjoy freedoms of navigation and overflight subject to the coastal State’s rights.",
+
+  "What activities are allowed for foreign ships in an EEZ?":
+    "Freedoms of navigation and overflight, laying cables and pipelines, and other internationally lawful uses consistent with these freedoms and with coastal State rights.",
+
+  "What is the continental shelf and can it extend beyond 200 nm?":
+    "It is the seabed and subsoil of submarine areas to the outer edge of the continental margin or 200 nm; it can extend beyond 200 nm where the natural margin warrants it, subject to scientific criteria.",
+
+  "How large is India’s EEZ approximately?":
+    "Often cited near 2.37 million square kilometers, considering mainland and island territories.",
+
+  "Who defines the global rules for EEZs?":
+    "The United Nations Convention on the Law of the Sea (UNCLOS) sets EEZ rules; States implement them via national laws and boundary agreements.",
+
+  "What happens when two countries’ EEZs overlap?":
+    "They delimit boundaries by agreement based on international law, using equitable principles and relevant circumstances.",
+
+  "Can a state restrict military activities in its EEZ?":
+    "Practice varies; many States accept foreign military navigation and exercises if consistent with UNCLOS freedoms and without infringing coastal State rights.",
+
+  "What is the difference between EEZ and high seas?":
+    "The EEZ is a 200‑nm zone with coastal State resource rights; the high seas lie beyond national jurisdiction and are open to all States.",
+
+  "How wide is the territorial sea limit for India?":
+    "India’s territorial sea extends up to 12 nautical miles from the baseline under international and national law.",
+
+  "What is an extended continental shelf (ECS)?":
+    "The portion of the continental shelf beyond 200 nm where the continental margin extends naturally; outer limits are established using scientific criteria and procedures."
+};
+
+/* UI hookup */
+const chips = document.getElementById('chips');
+const list  = document.getElementById('list');
+const msgs  = document.getElementById('msgs');
+const inp   = document.getElementById('inp');
+const send  = document.getElementById('send');
+const upl   = document.getElementById('upl');
+
+function addMsg(who, text, html=false){
+  const div = document.createElement('div');
+  div.className = 'msg ' + (who==='me' ? 'me':'bot');
+  const b = document.createElement('div');
+  b.className = 'bubble';
+  const lab = document.createElement('div');
+  lab.className = 'label';
+  lab.textContent = (who==='me'?'You':'Aquainel Bot');
+  b.appendChild(lab);
+  const body = document.createElement('div');
+  if(html) body.innerHTML = text; else body.textContent = text;
+  b.appendChild(body);
+  div.appendChild(b);
+  msgs.appendChild(div);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function botAnswer(q){
+  if(answers[q]) return answers[q];
+  return "Please select a question from the suggested list to get a precise, general EEZ answer.";
+}
+
+/* Pinned chips */
+allowedQs.slice(0,5).forEach(q=>{
+  const c = document.createElement('button');
+  c.className = 'chip';
+  c.textContent = q;
+  c.onclick = ()=>{ addMsg('me', q); addMsg('bot', botAnswer(q)); };
+  chips.appendChild(c);
+});
+
+/* Full list of 15 */
+allowedQs.forEach(q=>{
+  const li = document.createElement('li');
+  li.textContent = q;
+  li.onclick = ()=>{ addMsg('me', q); addMsg('bot', botAnswer(q)); };
+  list.appendChild(li);
+});
+
+/* Send handler: answer only listed questions (exact, case-insensitive) */
+send.onclick = ()=>{
+  const q = (inp.value||"").trim();
+  if(!q) return;
+  addMsg('me', q);
+  const match = allowedQs.find(s => s.toLowerCase() === q.toLowerCase());
+  if(match) addMsg('bot', botAnswer(match));
+  else addMsg('bot', "Only the listed EEZ questions are supported right now. Pick one above.");
+  inp.value = "";
+};
+
+/* Image upload preview */
+upl.onchange = ()=>{
+  const f = upl.files && upl.files[0];
+  if(!f) return;
+  const url = URL.createObjectURL(f);
+  addMsg('me', "Uploaded an image:");
+  addMsg('me', `<div class="img-prev"><img src="${url}" alt="uploaded image"></div>`, true);
+  addMsg('bot', "Image received. The chatbot currently previews images; advanced analysis can be added later.");
+};
+</script>
+</body>
+</html>
