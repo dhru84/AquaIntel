@@ -2,23 +2,16 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Aquainel — Alert Centered</title>
+<title>AquaIntel — Alert</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
-  :root{ --bg:#0b1220; --ink:#0f172a; --muted:#64748b; --danger:#ef4444; --danger-2:#ff6a3d; --warn:#f59e0b; }
+  :root{ --bg:#0b1220; --ink:#0f172a; --danger:#ef4444; --danger-2:#ff6a3d; --warn:#f59e0b; }
   html,body{margin:0;height:100%;font-family:Segoe UI, Inter, system-ui, -apple-system, Arial, sans-serif;background:linear-gradient(180deg,#0b1220,#0a152a);color:#e5e7eb}
-  .wrap{max-width:760px;margin:24px auto;padding:0 16px}
-  .demo-box{background:linear-gradient(180deg,#0f172a 0%, #0b1220 100%);border:1px solid #1f2937;border-radius:16px;padding:16px}
-  .btn{background:linear-gradient(180deg,#1a2235,#0f172a);border:1px solid #22314f;color:#e5e7eb;padding:10px 14px;border-radius:12px;cursor:pointer}
-  .btn:hover{transform:translateY(-1px);border-color:#3b82f6}
 
-  /* Overlay */
   .alert-overlay{
     position:fixed; inset:0; background:rgba(0,0,0,.45); backdrop-filter:blur(2px);
     z-index:80; animation:fadeIn .15s ease;
   }
-
-  /* Centered Panel */
   .alert-panel{
     position:fixed; top:50%; left:50%; transform:translate(-50%,-50%) scale(.98);
     max-width:420px; width:min(92vw, 420px);
@@ -31,11 +24,10 @@
 
   .alert-head{
     background:linear-gradient(180deg,var(--danger-2),var(--danger));
-    color:#fff; padding:12px 14px; display:flex; align-items:center; justify-content:space-between
+    color:#fff; padding:12px 14px; display:flex; align-items:center; justify-content:center;
+    font-weight:700;
   }
-  .alert-title{ font-weight:700 }
-  .alert-title .ico{ margin-right:8px }
-  .alert-close{ all:unset; cursor:pointer; background:rgba(255,255,255,.2); padding:4px 8px; border-radius:8px; color:#fff }
+  .alert-head .ico{ margin-right:8px }
 
   .alert-body{ padding:14px 16px; background:#fff; color:#0f172a }
   .alert-row{ display:flex; align-items:center; justify-content:space-between; padding:8px 0 }
@@ -54,25 +46,15 @@
   .safety-card{ border:1px solid #fde68a; background:#fffbeb; border-radius:12px; padding:12px; margin-top:10px }
   .safety-head{ color:#92400e; font-weight:700; display:flex; align-items:center; gap:8px; margin-bottom:6px }
   .safety-text{ color:#78350f; font-size:14px; line-height:1.45 }
-
-  .alert-foot{ padding:10px 14px; background:#fafafa; border-top:1px solid #e5e7eb; text-align:right; color:#475569; font-size:12px }
 </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="demo-box">
-      <h2 style="margin:0 0 10px">Alert Panel</h2>
-      <!-- Single button only -->
-      <button class="btn" id="showAlertBtn">Show Alert</button>
-    </div>
-  </div>
 
   <!-- Overlay + Centered Panel -->
-  <div id="alertOverlay" class="alert-overlay" hidden></div>
-  <div id="alertPanel" class="alert-panel" hidden aria-modal="true" role="dialog">
+  <div id="alertOverlay" class="alert-overlay"></div>
+  <div id="alertPanel" class="alert-panel" aria-modal="true" role="dialog">
     <div class="alert-head">
-      <div class="alert-title"><span class="ico">⚠️</span>Important Marine Alerts</div>
-      <button class="alert-close" id="alertClose" aria-label="Close">✕</button>
+      <span class="ico">⚠️</span>Important Marine Alerts
     </div>
 
     <div class="alert-body">
@@ -116,20 +98,16 @@
   </div>
 
 <script>
-  const overlay = document.getElementById('alertOverlay');
-  const panel   = document.getElementById('alertPanel');
-  const btnOpen = document.getElementById('showAlertBtn');
-  const btnClose= document.getElementById('alertClose');
+  // No close button; also disable overlay/Escape closing
+  document.addEventListener('keydown', e => {
+    if(e.key === 'Escape') e.preventDefault();
+  });
+  document.getElementById('alertOverlay').addEventListener('click', e => {
+    e.preventDefault();
+    e.stopPropagation();
+  });
 
-  function openAlert(){ overlay.hidden=false; panel.hidden=false; }
-  function closeAlert(){ overlay.hidden=true; panel.hidden=true; }
-
-  btnOpen.addEventListener('click', openAlert);
-  btnClose.addEventListener('click', closeAlert);
-  overlay.addEventListener('click', closeAlert);
-  window.addEventListener('keydown', e=>{ if(!panel.hidden && e.key==='Escape') closeAlert(); });
-
-  // Populate helper (kept for future dynamic data)
+  // Set default values (kept for future dynamic use)
   function setAlertData({
     location="Kochi Coast",
     coord="9.9312° N, 76.2673° E",
@@ -137,32 +115,20 @@
     currents="Strong south‑west direction",
     cyclone="None",
     risk="MODERATE",
-    advice="Exercise caution when fishing. Check IMD forecasts before departing. Monitor wind and wave conditions closely. Maintain radio contact with coastal authorities.",
-    updated=null
+    advice="Exercise caution when fishing. Check IMD forecasts before departing. Monitor wind and wave conditions closely. Maintain radio contact with coastal authorities."
   }={}){
     const byId = id => document.getElementById(id);
-    byId('al_loc').textContent   = location;
-    byId('al_coord').textContent = coord;
-    byId('al_wind').textContent  = wind;
-    byId('al_curr').textContent  = currents;
-    byId('al_cyclone').textContent = cyclone;
+    byId('al_loc').textContent    = location;
+    byId('al_coord').textContent  = coord;
+    byId('al_wind').textContent   = wind;
+    byId('al_curr').textContent   = currents;
+    byId('al_cyclone').textContent= cyclone;
     byId('al_risk_lbl').textContent = `Risk Level: ${risk}`;
     const tone = { LOW:'#22c55e', MODERATE:'#f59e0b', HIGH:'#ef4444' }[risk.toUpperCase()] || '#f59e0b';
     document.getElementById('al_risk_dot').style.background = tone;
-    byId('al_advice').textContent = advice;
-    byId('al_updated').textContent = updated || new Date().toLocaleString('en-IN', { hour12:false });
+    document.getElementById('al_advice').textContent = advice;
   }
-
-  // Default content
-  setAlertData({
-    location: "Kochi Coast",
-    coord: "9.9312° N, 76.2673° E",
-    wind: "22 knots",
-    currents: "Strong south‑west direction",
-    cyclone: "None",
-    risk: "MODERATE",
-    updated: "29/09/2025 at 00:00"
-  });
+  setAlertData();
 </script>
 </body>
 </html>
