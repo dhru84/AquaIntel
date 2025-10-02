@@ -1,4 +1,4 @@
-# Aquainel — Indian EEZ Intelligence
+# AquaIntel — Indian EEZ Intelligence
 
 Web app to explore India’s EEZ with modules for Taxonomy & Morphology, eDNA, Otolith, Acoustic, Fishery Advisory, and a simple EEZ Chatbot. Built with Flask + Plotly and a clean dark UI.
 
