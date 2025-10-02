@@ -15,6 +15,8 @@ Create requirements.txt:
 Flask
 gunicorn
 plotly
+pandas
+numpy
 ```
 
 ## Run locally
