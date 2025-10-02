@@ -358,6 +358,7 @@ def acoustic_map_file():
         return jsonify({"file": legacy})
     return jsonify({"error": "No acoustic HTML found. Place attractive_ocean_map.html in the app folder."})
 
+
 @app.route("/fishery")
 def page_fishery():
     return send_from_directory(".", "fishery.html")
