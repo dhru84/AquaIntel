@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AquaIntel — eDNA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
+</head>
+<body>
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand"><div class="logo"></div><div class="name">AquaIntel</div></div>
+      <div><a class="go" href="/">Home</a></div>
+    </div>
+  </div>
+
+  <div class="page narrow">
+    <!-- Treemap -->
+    <div class="panel flush">
+      <h2>eDNA</h2>
+      <div class="plot-wrap">
+        <div id="plot" style="height:520px"></div>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="panel flush">
+      <h2>Search species</h2>
+      <div class="search-row">
+        <input id="q" placeholder="Enter species or scientific name">
+        <button class="btn" id="searchBtn">Search</button>
+      </div>
+      <div id="result" style="margin-top:10px"></div>
+    </div>
+
+    <!-- Map aligned with treemap -->
+    <div class="panel flush">
+      <h2>Map — Indian EEZ</h2>
+      <div style="display:flex;gap:10px;margin-bottom:10px">
+        <button class="btn" id="ednaMapBtn">Generate/Show Map</button>
+      </div>
+      <div class="plot-wrap">
+        <div id="ednaMap" style="height:600px"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-space"></div>
+  <div class="fab-wrap">
+    <button class="fab" id="alertBtn" onclick="location.href='alert.html'">⚠️ Alert</button>
+    <button class="fab" onclick="location.href='/chatbot'">💬 Chatbot</button>
+  </div>
+
+  <script>
+    async function loadTreemap(){
+      try{
+        const r = await fetch('/treemap?ds=eDNA');
+        const j = await r.json();
+        if(j && !j.error){
+          Plotly.newPlot('plot', j.data, j.layout, {responsive:true});
+        }else{
+          document.getElementById('plot').innerHTML = "<div class='warn' style='margin:10px'>" + (j.error||'Failed to render eDNA treemap') + "</div>";
+        }
+      }catch(e){
+        document.getElementById('plot').innerHTML = "<div class='warn' style='margin:10px'>Error loading treemap.</div>";
+      }
+    }
+
+    async function doSearch(){
+      const q = (document.getElementById('q').value||'').trim();
+      if(!q){ document.getElementById('result').innerHTML = "<div class='warn'>Enter a species name.</div>"; return; }
+      document.getElementById('result').innerHTML = "<div class='warn'>Searching...</div>";
+      try{
+        const r = await fetch('/search?ds=eDNA&q=' + encodeURIComponent(q));
+        const j = await r.json();
+        document.getElementById('result').innerHTML = j.html || "<div class='warn'>No response.</div>";
+      }catch(e){
+        document.getElementById('result').innerHTML = "<div class='warn'>Search failed.</div>";
+      }
+    }
+
+    async function loadMap(){
+      const el = document.getElementById('ednaMap');
+      el.innerHTML = "<div class='warn' style='margin:10px'>Loading map...</div>";
+      try{
+        const r = await fetch('/mapplot?ds=eDNA');
+        const j = await r.json();
+        if(j && !j.error){
+          Plotly.newPlot('ednaMap', j.data, j.layout, {responsive:true});
+        }else{
+          el.innerHTML = "<div class='warn' style='margin:10px'>" + (j.error||'Failed to render map') + "</div>";
+        }
+      }catch(e){
+        el.innerHTML = "<div class='warn' style='margin:10px'>Error loading map.</div>";
+      }
+    }
+
+    document.getElementById('searchBtn').onclick = doSearch;
+    document.getElementById('ednaMapBtn').onclick = loadMap;
+    loadTreemap();
+  </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AquaIntel — Acoustic</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand"><div class="logo"></div><div class="name">AquaIntel</div></div>
+      <div><a class="go" href="/">Home</a></div>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="panel">
+      <h2>Acoustic Map</h2>
+      <div id="mapWrap" style="height:560px;border-radius:14px;overflow:hidden;border:1px solid #1f2937;background:#0b1220"></div>
+    </div>
+  </div>
+
+  <div class="footer-space"></div>
+  <div class="fab-wrap">
+    <button class="fab" onclick="alert('System Alert: Monitor offshore conditions and eDNA updates.')">⚠️ Alert</button>
+    <button class="fab" onclick="alert('Chatbot coming soon. Plug any widget/API here.')">💬 Chatbot</button>
+  </div>
+
+  <script>
+    async function tryEmbed(){
+      const wrap = document.getElementById('mapWrap');
+      wrap.innerHTML = "<div class='warn' style='margin:14px'>Loading acoustic map...</div>";
+      try{
+        const r = await fetch('/acoustic/map');
+        const j = await r.json();
+        if(j.file){
+          wrap.innerHTML = `<iframe src="${j.file}" style="width:100%;height:100%;border:0"></iframe>`;
+          return;
+        }
+        wrap.innerHTML = `<div class='warn' style='margin:14px'>${j.error||'Map not found.'}</div>`;
+      }catch(e){
+        wrap.innerHTML = "<div class='warn' style='margin:14px'>Failed to load acoustic map.</div>";
+      }
+    }
+    tryEmbed();
+  </script>
+</body>
+</html>

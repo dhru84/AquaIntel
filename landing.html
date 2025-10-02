@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AquaIntel — Indian EEZ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand"><div class="logo"></div><div class="name">AquaIntel</div></div>
+      <div class="nav-pills">
+        <span class="pill">Treemaps & Maps</span>
+        <span class="pill">Species Search</span>
+        <span class="pill">Indian EEZ Focus</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="hero">
+    <h1>Indian EEZ Intelligence</h1>
+    <p class="lead">Discover taxonomy morphology, eDNA detections, otolith archives, acoustic maps, and fishery advisories for safer, smarter oceans.</p>
+  </header>
+
+  <section class="map-hero">
+  <div class="map-row">
+    <div class="map-col img">
+      <div class="map-thumb">
+        <img src="eez_india.png" alt="Indian EEZ overview map"
+             onerror="this.closest('.map-thumb').innerHTML='<div class=&quot;warn&quot; style=&quot;margin:14px&quot;>Map image not found. Place eez_india.png next to landing.html.</div>';">
+      </div>
+    </div>
+    <div class="map-col txt">
+      <h2 class="map-title">India’s Exclusive Economic Zone</h2>
+      <ul class="facts-list compact">
+        <li><span>Extent:</span> EEZ up to 200 nautical miles from baselines; resource rights over waters, seabed, subsoil.</li>
+        <li><span>Zones:</span> Territorial Sea 12 nm, Contiguous Zone 24 nm, EEZ 200 nm, extended shelf possible.</li>
+        <li><span>Coverage:</span> Mainland coasts plus island territories contribute to a vast maritime domain.</li>
+        <li><span>Uses:</span> Fisheries, offshore energy, research, cables/pipelines per international law.</li>
+      </ul>
+      <div class="badges">
+        <span class="badge info">UNCLOS</span>
+        <span class="badge">200 nm</span>
+        <span class="badge warn">Maritime Safety</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <div class="section" id="modules">
+    <h2 class="section-title">Explore Modules</h2>
+    <div class="grid4">
+      <div class="card">
+        <h3>Taxonomy & Morphology</h3>
+        <p>Hierarchical treemap of species across Phylum → Order → Family.</p>
+        <a class="go" href="/taxonomy">Open</a>
+      </div>
+      <div class="card">
+        <h3>eDNA</h3>
+        <p>Weighted treemap by reads with species detection details.</p>
+        <a class="go" href="/edna">Open</a>
+      </div>
+      <div class="card">
+        <h3>Otolith</h3>
+        <p>Otolith inventory taxonomy explorer for Indian EEZ species.</p>
+        <a class="go" href="/otolith">Open</a>
+      </div>
+      <div class="card">
+        <h3>Acoustic</h3>
+        <p>Interactive map of underwater noise and conditions.</p>
+        <a class="go" href="/acoustic">Open</a>
+      </div>
+      <div class="card">
+        <h3>Fishery Advisory</h3>
+        <p>Advisory map and guidance for safe fishing operations.</p>
+        <a class="go" href="/fishery">Open</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-space"></div>
+  <div class="fab-wrap">
+    <button class="fab" id="alertBtn" onclick="location.href='alert.html'">⚠️ Alert</button>
+    <button class="fab" onclick="location.href='/chatbot'">💬 Chatbot</button>
+  </div>
+</body>
+</html>

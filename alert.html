@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AquaIntel — Alert</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root{ --bg:#0b1220; --ink:#0f172a; --danger:#ef4444; --danger-2:#ff6a3d; --warn:#f59e0b; }
+  html,body{margin:0;height:100%;font-family:Segoe UI, Inter, system-ui, -apple-system, Arial, sans-serif;background:linear-gradient(180deg,#0b1220,#0a152a);color:#e5e7eb}
+
+  .alert-overlay{
+    position:fixed; inset:0; background:rgba(0,0,0,.45); backdrop-filter:blur(2px);
+    z-index:80; animation:fadeIn .15s ease;
+  }
+  .alert-panel{
+    position:fixed; top:50%; left:50%; transform:translate(-50%,-50%) scale(.98);
+    max-width:420px; width:min(92vw, 420px);
+    background:#ffffff; color:var(--ink); border-radius:18px; z-index:81;
+    box-shadow:0 24px 70px rgba(0,0,0,.45); border:1px solid #ffd4bf; overflow:hidden;
+    animation:popIn .18s ease forwards;
+  }
+  @keyframes popIn{ from{ opacity:0; transform:translate(-50%,-46%) scale(.96) } to{ opacity:1; transform:translate(-50%,-50%) scale(1) } }
+  @keyframes fadeIn{ from{ opacity:0 } to{ opacity:1 } }
+
+  .alert-head{
+    background:linear-gradient(180deg,var(--danger-2),var(--danger));
+    color:#fff; padding:12px 14px; display:flex; align-items:center; justify-content:center;
+    font-weight:700;
+  }
+  .alert-head .ico{ margin-right:8px }
+
+  .alert-body{ padding:14px 16px; background:#fff; color:#0f172a }
+  .alert-row{ display:flex; align-items:center; justify-content:space-between; padding:8px 0 }
+  .alert-label{ color:#334155; display:flex; align-items:center; gap:8px; font-weight:600 }
+  .alert-value{ color:#0f172a }
+  .alert-sub{ padding:0 0 8px 0 }
+  .alert-mono{ font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color:#475569 }
+  .hr{ height:1px; background:linear-gradient(90deg, transparent, #e2e8f0 50%, transparent); margin:10px 0 }
+
+  .dot.loc{ width:8px; height:8px; border-radius:999px; display:inline-block; background:#ef4444; box-shadow:0 0 0 2px #fecaca }
+
+  .risk-card{ border:1px solid #fed7aa; background:#fff7ed; border-radius:14px; padding:12px; margin-top:10px }
+  .risk-head{ color:#b45309; font-weight:700; display:flex; align-items:center; gap:8px }
+  .risk-dot{ width:10px; height:10px; border-radius:999px; display:inline-block; background:var(--warn) }
+
+  .safety-card{ border:1px solid #fde68a; background:#fffbeb; border-radius:12px; padding:12px; margin-top:10px }
+  .safety-head{ color:#92400e; font-weight:700; display:flex; align-items:center; gap:8px; margin-bottom:6px }
+  .safety-text{ color:#78350f; font-size:14px; line-height:1.45 }
+</style>
+</head>
+<body>
+
+  <!-- Overlay + Centered Panel -->
+  <div id="alertOverlay" class="alert-overlay"></div>
+  <div id="alertPanel" class="alert-panel" aria-modal="true" role="dialog">
+    <div class="alert-head">
+      <span class="ico">⚠️</span>Important Marine Alerts
+    </div>
+
+    <div class="alert-body">
+      <div class="alert-row">
+        <div class="alert-label"><span class="dot loc"></span>Location</div>
+        <div class="alert-value" id="al_loc">Kochi Coast</div>
+      </div>
+      <div class="alert-sub">
+        <div class="alert-label">Coordinates</div>
+        <div class="alert-mono" id="al_coord">9.9312° N, 76.2673° E</div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="alert-row">
+        <div class="alert-label"><span class="ico">🌀</span>Wind Speed</div>
+        <div class="alert-value" id="al_wind">22 knots</div>
+      </div>
+      <div class="alert-row">
+        <div class="alert-label"><span class="ico">🌊</span>Currents</div>
+        <div class="alert-value" id="al_curr">Strong south‑west direction</div>
+      </div>
+      <div class="alert-row">
+        <div class="alert-label"><span class="ico">🌀</span>Hurricane Alerts</div>
+        <div class="alert-value" id="al_cyclone">None</div>
+      </div>
+
+      <div class="risk-card">
+        <div class="risk-head">
+          <span class="risk-dot" id="al_risk_dot"></span>
+          <span id="al_risk_lbl">Risk Level: MODERATE</span>
+        </div>
+        <div class="safety-card">
+          <div class="safety-head"><span class="ico">🛟</span>Safety Advice</div>
+          <div class="safety-text" id="al_advice">
+            Exercise caution when fishing. Check IMD forecasts before departing. Monitor wind and wave conditions closely. Maintain radio contact with coastal authorities.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  // No close button; also disable overlay/Escape closing
+  document.addEventListener('keydown', e => {
+    if(e.key === 'Escape') e.preventDefault();
+  });
+  document.getElementById('alertOverlay').addEventListener('click', e => {
+    e.preventDefault();
+    e.stopPropagation();
+  });
+
+  // Set default values (kept for future dynamic use)
+  function setAlertData({
+    location="Kochi Coast",
+    coord="9.9312° N, 76.2673° E",
+    wind="22 knots",
+    currents="Strong south‑west direction",
+    cyclone="None",
+    risk="MODERATE",
+    advice="Exercise caution when fishing. Check IMD forecasts before departing. Monitor wind and wave conditions closely. Maintain radio contact with coastal authorities."
+  }={}){
+    const byId = id => document.getElementById(id);
+    byId('al_loc').textContent    = location;
+    byId('al_coord').textContent  = coord;
+    byId('al_wind').textContent   = wind;
+    byId('al_curr').textContent   = currents;
+    byId('al_cyclone').textContent= cyclone;
+    byId('al_risk_lbl').textContent = `Risk Level: ${risk}`;
+    const tone = { LOW:'#22c55e', MODERATE:'#f59e0b', HIGH:'#ef4444' }[risk.toUpperCase()] || '#f59e0b';
+    document.getElementById('al_risk_dot').style.background = tone;
+    document.getElementById('al_advice').textContent = advice;
+  }
+  setAlertData();
+</script>
+</body>
+</html>
